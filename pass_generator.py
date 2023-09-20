@@ -28,7 +28,6 @@ def generate_password():
     special_characters = string.punctuation if use_special_characters else ''
 
     # Her kategoriden en az bir karakter seç
-    
     password_chars = [
         random.choice(lowercase_letters),
         random.choice(uppercase_letters),
